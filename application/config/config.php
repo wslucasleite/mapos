@@ -1,5 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
-
+//Configurando horario da regiao para não dar problema com a data de cadastro do cliente, estava salvando 1 dia depois.
+//date_default_timezone_set('America/Sao_Paulo');
 
 /**
  * App current version
